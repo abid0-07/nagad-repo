@@ -11,6 +11,7 @@ DOMAINS = [
 
 # username: abid@nagad.com.bd
 # password: rtyu#ivgh*9866
+
 def generate_login_logs(count=3):
     logs = []
     for i in range(1, count + 1):
@@ -31,6 +32,9 @@ def generate_login_logs(count=3):
         
     return logs
 
+# username: abid@mynagad.com 
+# password:rtyuivbn5#_ada
+# https://auth.mynagad.com
 if __name__ == "__main__":
     login_data = generate_login_logs(3)
     print(json.dumps(login_data, indent=2))
