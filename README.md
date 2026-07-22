@@ -1,2 +1,2 @@
 # nagad-repo
-Nagad-repo
+Created a sample log creation file
